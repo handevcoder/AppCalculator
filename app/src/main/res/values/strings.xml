@@ -1,10 +1,5 @@
 <resources>
     <string name="app_name">AppCalculators</string>
-    <string name="enter_your_first_number">Enter your First Number</string>
-    <string name="enter_second_number_">Enter Second Numberr</string>
-    <string name="enter_second_number__">enter_second_number</string>
-    <string name="enter_second_number">Enter Second Number</string>
-    <string name="enter_first_number">Enter First Number</string>
     <string name="c">C</string>
     <string name="modulus">%</string>
     <string name="del">Del</string>

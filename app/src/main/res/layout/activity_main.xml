@@ -4,10 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/black"
+    android:background="@color/white"
     android:orientation="vertical"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -16,26 +15,26 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/cal_expression"
+            android:id="@+id/callExpression"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_gravity="end"
-            android:background="#C3101010"
+            android:background="#C3F3EEEE"
             android:ellipsize="start"
             android:gravity="center_vertical"
             android:singleLine="true"
-            android:textColor="@android:color/white"
+            android:textColor="@color/actionButton"
             android:textSize="40sp" />
 
         <TextView
-            android:id="@+id/cal_result"
+            android:id="@+id/callResult"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_gravity="end"
-            android:background="#C3101010"
+            android:background="#C3F1ECEC"
             android:ellipsize="end"
             android:singleLine="true"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/actionButton"
             android:textSize="30sp" />
 
     </LinearLayout>
@@ -52,26 +51,26 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/button_C"
+                android:id="@+id/btnC"
                 style="@style/NumberButtonStyle"
                 android:text="@string/c"
                 android:textColor="#FF0000"></TextView>
 
             <TextView
-                android:id="@+id/button_mod"
+                android:id="@+id/btnMod"
                 style="@style/NumberButtonStyle"
                 android:text="@string/modulus"
                 android:textColor="#FFD500"></TextView>
 
             <TextView
-                android:id="@+id/button_delete"
+                android:id="@+id/btnDelete"
                 style="@style/NumberButtonStyle"
                 android:text="@string/del"
 
                 android:textColor="#FFD500"></TextView>
 
             <TextView
-                android:id="@+id/button_divide"
+                android:id="@+id/btnDivide"
                 style="@style/NumberButtonStyle"
                 android:text="@string/divide"
                 android:textColor="#FFD500"></TextView>
@@ -84,22 +83,22 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/button_7"
+                android:id="@+id/btnSeven"
                 style="@style/NumberButtonStyle"
                 android:text="@string/_7"></TextView>
 
             <TextView
-                android:id="@+id/button_8"
+                android:id="@+id/btnEight"
                 style="@style/NumberButtonStyle"
                 android:text="@string/_8"></TextView>
 
             <TextView
-                android:id="@+id/button_9"
+                android:id="@+id/btnNine"
                 style="@style/NumberButtonStyle"
                 android:text="@string/_9"></TextView>
 
             <TextView
-                android:id="@+id/button_multiply"
+                android:id="@+id/btnMultiply"
                 style="@style/NumberButtonStyle"
                 android:text="@string/mul"
                 android:textColor="#FFD500"></TextView>
@@ -112,22 +111,22 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/button_4"
+                android:id="@+id/btnFour"
                 style="@style/NumberButtonStyle"
                 android:text="@string/_4"></TextView>
 
             <TextView
-                android:id="@+id/button_5"
+                android:id="@+id/btnFive"
                 style="@style/NumberButtonStyle"
                 android:text="@string/_5"></TextView>
 
             <TextView
-                android:id="@+id/button_6"
+                android:id="@+id/btnSix"
                 style="@style/NumberButtonStyle"
                 android:text="@string/_6"></TextView>
 
             <TextView
-                android:id="@+id/button_minus"
+                android:id="@+id/btnMinus"
                 style="@style/NumberButtonStyle"
                 android:text="@string/minus"
                 android:textColor="#FFD500"></TextView>
@@ -140,22 +139,22 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/button_1"
+                android:id="@+id/btnOne"
                 style="@style/NumberButtonStyle"
                 android:text="@string/_1"></TextView>
 
             <TextView
-                android:id="@+id/button_2"
+                android:id="@+id/btnTwo"
                 style="@style/NumberButtonStyle"
                 android:text="@string/_2"></TextView>
 
             <TextView
-                android:id="@+id/button_3"
+                android:id="@+id/btnThree"
                 style="@style/NumberButtonStyle"
                 android:text="@string/_3"></TextView>
 
             <TextView
-                android:id="@+id/button_plus"
+                android:id="@+id/btnPlus"
                 style="@style/NumberButtonStyle"
                 android:text="@string/plus"
                 android:textColor="#FFD500"></TextView>
@@ -168,22 +167,22 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/button_zero_zero"
+                android:id="@+id/btnZerozero"
                 style="@style/NumberButtonStyle"
                 android:text="@string/_00"></TextView>
 
             <TextView
-                android:id="@+id/button_zero"
+                android:id="@+id/btnZero"
                 style="@style/NumberButtonStyle"
                 android:text="@string/_0"></TextView>
 
             <TextView
-                android:id="@+id/button_dot"
+                android:id="@+id/btnDot"
                 style="@style/NumberButtonStyle"
                 android:text="@string/dot"></TextView>
 
             <TextView
-                android:id="@+id/button_equal"
+                android:id="@+id/btnEqual"
                 style="@style/NumberButtonStyle"
                 android:background="#FFD500"
                 android:text="@string/equal"></TextView>
